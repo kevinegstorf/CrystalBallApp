@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DCCViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+- (IBAction)buttonPressed;
+
 
 @end
