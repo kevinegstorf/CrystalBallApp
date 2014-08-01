@@ -18,44 +18,38 @@
 {
     [super viewDidLoad];
     
-   
-	// Do any additional setup after loading the view, typically from a nib.
+    self.predictions =[[NSArray alloc]initWithObjects:@"It is Certain",
+                       @"It is Decidedly so",
+                       @"All signs say YES",
+                       @"The stars are not aligned",
+                       @"My reply is no",
+                       @"It is doubtful",
+                       @"Better no tell you now",
+                       @"Concentrate and ask again",
+                       @"Unable to answer now", nil];
+
 }
-//
-//-(void) viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    
-//    CGRect frame =self.predictionLabel.frame;
-//     self.predictionLabel.frame = CGRectMake(frame.origin.x, 200,frame.size.width, frame.size.height);
-//    
-//    
-//    
-//}
+
+
+
+   
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  
 }
 
 - (IBAction)buttonPressed {
-    self.predictionLabel.text =
-    @"YES";
+    int random = arc4random_uniform(self.predictions.count);
+
+
+    
+    self.predictionLabel.text = [self.predictions objectAtIndex:random];
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 @end
+    
