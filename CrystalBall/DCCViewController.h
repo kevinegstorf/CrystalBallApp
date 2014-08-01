@@ -10,6 +10,8 @@
 
 @interface DCCViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (strong, nonatomic) NSArray *predictions;
+
 - (IBAction)buttonPressed;
 
 
