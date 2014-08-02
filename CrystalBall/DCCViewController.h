@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class DCCCrystalBall;
+
 @interface DCCViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (strong, nonatomic) NSArray *predictions;
-
+@property (strong, nonatomic) DCCCrystalBall *crystalBall;
 - (IBAction)buttonPressed;
-
 
 @end
