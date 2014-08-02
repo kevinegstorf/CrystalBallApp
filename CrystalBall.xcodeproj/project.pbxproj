@@ -21,6 +21,7 @@
 		078676C8198B91B600CD3F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078676AA198B91B600CD3F81 /* UIKit.framework */; };
 		078676D0198B91B600CD3F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078676CE198B91B600CD3F81 /* InfoPlist.strings */; };
 		078676D2198B91B600CD3F81 /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078676D1198B91B600CD3F81 /* CrystalBallTests.m */; };
+		07ACC752198CC9C900AED35A /* DCCCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ACC751198CC9C900AED35A /* DCCCrystalBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		078676CD198B91B600CD3F81 /* CrystalBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBallTests-Info.plist"; sourceTree = "<group>"; };
 		078676CF198B91B600CD3F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		078676D1198B91B600CD3F81 /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		07ACC750198CC9C900AED35A /* DCCCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCCrystalBall.h; sourceTree = "<group>"; };
+		07ACC751198CC9C900AED35A /* DCCCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCCrystalBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				078676BC198B91B600CD3F81 /* DCCViewController.m */,
 				078676BE198B91B600CD3F81 /* Images.xcassets */,
 				078676AD198B91B600CD3F81 /* Supporting Files */,
+				07ACC750198CC9C900AED35A /* DCCCrystalBall.h */,
+				07ACC751198CC9C900AED35A /* DCCCrystalBall.m */,
 			);
 			path = CrystalBall;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				078676B3198B91B600CD3F81 /* main.m in Sources */,
 				078676BD198B91B600CD3F81 /* DCCViewController.m in Sources */,
+				07ACC752198CC9C900AED35A /* DCCCrystalBall.m in Sources */,
 				078676B7198B91B600CD3F81 /* DCCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
