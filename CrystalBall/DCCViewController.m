@@ -29,7 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+#pragma mark - Motion Events
 -(void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
    
     self.predictionLabel.text = nil;
@@ -45,6 +45,7 @@
     NSLog(@"motion cancelled");
 }
 
+#pragma mark - Touch Events
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     self.predictionLabel.text = nil;
 }
