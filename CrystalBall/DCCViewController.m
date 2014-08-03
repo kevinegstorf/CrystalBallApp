@@ -32,7 +32,19 @@
 - (IBAction)buttonPressed {
     self.predictionLabel.text = [self.crystalBall randomPrediction];
 }
+-(void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    NSLog(@"motion began");
+}
 
+-(void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+    if ( motion == UIEventSubtypeMotionShake){
+        self.predictionLabel.text = [self.crystalBall randomPrediction];
+    }
+}
+
+-(void) motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+    NSLog(@"motion cancelled");
+}
 
 @end
 
