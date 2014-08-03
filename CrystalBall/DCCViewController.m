@@ -33,7 +33,8 @@
     self.predictionLabel.text = [self.crystalBall randomPrediction];
 }
 -(void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-    NSLog(@"motion began");
+   
+    self.predictionLabel.text = nil;
 }
 
 -(void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event{
