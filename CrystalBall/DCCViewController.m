@@ -47,5 +47,18 @@
     NSLog(@"motion cancelled");
 }
 
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    self.predictionLabel.text = nil;
+}
+
+- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    self.predictionLabel.text = [self.crystalBall randomPrediction];
+                    
+}
+
+- (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSLog(@"touches cancelled");
+}
+
 @end
 
