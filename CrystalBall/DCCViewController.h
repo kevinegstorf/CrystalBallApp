@@ -14,5 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong, nonatomic) DCCCrystalBall *crystalBall;
 
+- (void) makePrediction;
+
 
 @end
