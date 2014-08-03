@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="hgp-Su-bad">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CB00001" translatesAutoresizingMaskIntoConstraints="NO" id="hgp-Su-bad">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is decidedly so" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="281" translatesAutoresizingMaskIntoConstraints="NO" id="xhe-xo-SYu">
-                                <rect key="frame" x="19" y="166" width="281" height="150"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="It is decidedly so" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="281" translatesAutoresizingMaskIntoConstraints="NO" id="xhe-xo-SYu">
+                                <rect key="frame" x="20" y="196" width="281" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="281" id="BiP-hD-NWi"/>
@@ -40,9 +40,11 @@
                             <constraint firstItem="xhe-xo-SYu" firstAttribute="centerX" secondItem="hgp-Su-bad" secondAttribute="centerX" constant="-0.5" id="eKV-jF-O7i"/>
                             <constraint firstItem="xhe-xo-SYu" firstAttribute="centerY" secondItem="hgp-Su-bad" secondAttribute="centerY" constant="-43" id="sbT-P3-0U5"/>
                             <constraint firstItem="hgp-Su-bad" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ugh-Ux-4G6"/>
+                            <constraint firstAttribute="centerX" secondItem="xhe-xo-SYu" secondAttribute="centerX" id="wG3-RJ-UQl"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImageView" destination="hgp-Su-bad" id="4x7-1Z-b2d"/>
                         <outlet property="predictionLabel" destination="xhe-xo-SYu" id="Qfe-uE-M9m"/>
                     </connections>
                 </viewController>
@@ -51,7 +53,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="320" height="568"/>
+        <image name="CB00001" width="320" height="568"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
