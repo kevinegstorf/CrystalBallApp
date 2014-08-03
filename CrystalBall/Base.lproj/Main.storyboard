@@ -31,33 +31,13 @@
                                 <color key="textColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-Ur-MWF">
-                                <rect key="frame" x="29" y="501" width="261" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="bHc-gJ-e50"/>
-                                    <constraint firstAttribute="width" constant="261" id="tL4-Ug-i9L"/>
-                                </constraints>
-                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Predict" image="button-off">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted" image="button-on"/>
-                                <connections>
-                                    <action selector="buttonPressed" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hQQ-tk-lIi"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Pa5-Ur-MWF" secondAttribute="bottom" constant="20" id="5jZ-fl-us6"/>
                             <constraint firstAttribute="trailing" secondItem="hgp-Su-bad" secondAttribute="trailing" id="964-vU-bfy"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hgp-Su-bad" secondAttribute="bottom" id="CN8-7W-kq2"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Pa5-Ur-MWF" secondAttribute="bottom" constant="20" id="CNz-tp-5rC"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Pa5-Ur-MWF" secondAttribute="bottom" constant="20" id="KeT-6A-8cg"/>
                             <constraint firstItem="hgp-Su-bad" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Wre-9Q-Htz"/>
                             <constraint firstItem="xhe-xo-SYu" firstAttribute="centerX" secondItem="hgp-Su-bad" secondAttribute="centerX" constant="-0.5" id="eKV-jF-O7i"/>
-                            <constraint firstAttribute="centerX" secondItem="Pa5-Ur-MWF" secondAttribute="centerX" id="rQi-3b-oIl"/>
                             <constraint firstItem="xhe-xo-SYu" firstAttribute="centerY" secondItem="hgp-Su-bad" secondAttribute="centerY" constant="-43" id="sbT-P3-0U5"/>
                             <constraint firstItem="hgp-Su-bad" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ugh-Ux-4G6"/>
                         </constraints>
@@ -72,8 +52,6 @@
     </scenes>
     <resources>
         <image name="background" width="320" height="568"/>
-        <image name="button-off" width="261" height="49"/>
-        <image name="button-on" width="261" height="47"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

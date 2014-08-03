@@ -13,6 +13,6 @@
 @interface DCCViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong, nonatomic) DCCCrystalBall *crystalBall;
-- (IBAction)buttonPressed;
+
 
 @end
